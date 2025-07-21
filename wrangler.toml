@@ -1,0 +1,11 @@
+name = "nathaniel-page"
+compatibility_date = "2025-07-20"
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "."
+
+[build.upload]
+format = "directory"
+dir = ".vercel/output/static"
