@@ -1,3 +1,5 @@
+import Education from "@/components/Education";
+
 export default function Home() {
     const socials = [
         { name: "GitHub", icon: "fa-brands fa-github", url: "https://github.com/DoNathaniel" },
@@ -7,12 +9,12 @@ export default function Home() {
     ];
 
     return (
-        <main className="w-screen flex flex-col items-center justify-start bg-[#0D1117] text-[#F1F1F1]">
-            <section className="h-screen flex items-center justify-center">
-                <div className="p-8 flex flex-col justify-center text-left hover:text-white">
+        <main className="w-full flex flex-col items-center justify-start bg-[#0D1117] text-[#F1F1F1]">
+            <section className="w-4xl h-screen flex">
+                <div className="flex flex-col justify-center text-left hover:text-white">
                     <div className="flex flex-col">
                         <h1 className="text-6xl font-bold">
-                            Hi! I'm <span className="text-blue-500">Nathaniel</span>
+                            ¡Hola! Soy <span className="text-blue-500">Nathaniel</span>
                         </h1>
                         <p className="text-lg text-gray-400">Full Stack Developer</p>
                     </div>
@@ -25,6 +27,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <Education />
         </main>
     );
 }
