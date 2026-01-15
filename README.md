@@ -1,6 +1,6 @@
 # Hola 👋!
 
-Soy **Nathaniel**, un **estudiante de primer año de Ingeniería Civil en Informática** y programador autodidacta con más de **7 años de experiencia**. Me apasiona la tecnología, en especial la **programación** 💻.
+Soy **Nathaniel**, un **estudiante de segundo año de Ingeniería Civil en Informática** y programador autodidacta con más de **7 años de experiencia**. Me apasiona la tecnología, en especial la **programación** 💻.
 
 En mis tiempos libres disfruto hacer deporte, en especial **Vóley** 🏐 y a veces **Fútbol** ⚽. También me gusta ver **series y películas** 🎬.
 
