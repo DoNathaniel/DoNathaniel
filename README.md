@@ -4,9 +4,15 @@ Soy **Nathaniel**, un **estudiante de segundo año de Ingeniería Civil en Infor
 
 En mis tiempos libres disfruto hacer deporte, en especial **Vóley** 🏐 y a veces **Fútbol** ⚽. También me gusta ver **series y películas** 🎬.
 
+---
+
+💚 Desde finales de 2025, asumí el rol de [Director de Tecnología e Innovación](https://adolescenteimpacta.cl/equipo#bio-vicente-hernandez-donoso) en la [Fundación Adolescente Impacta](https://adolescenteimpacta.cl), contribuyendo a la transformación e impulso de proyectos digitales orientados al impacto social.
+
+---
+
 ## 📌 ¿Quieres saber más de mí?
 
 🔗 [**Portafolio**](https://donath.us/) – ¡Aquí puedes ver más sobre mis proyectos y conocimientos! ✨  
 📸 [**Instagram**](https://instagram.com/visho_xx_)  
-💼 [**LinkedIn**](https://www.linkedin.com/in/vicente-nathaniel/) – Aquí puedes conectar y conocer mi perfil profesional 🤝  
+💼 [**LinkedIn**](https://www.linkedin.com/in/nathaniel-donath/) – Aquí puedes conectar y conocer mi perfil profesional 🤝  
 💬 **¡Hablemos por Discord!** _(Usuario: n4than13l)_
