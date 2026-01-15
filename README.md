@@ -8,4 +8,5 @@ En mis tiempos libres disfruto hacer deporte, en especial **Vóley** 🏐 y a ve
 
 🔗 [**Portafolio**](https://donath.us/) – ¡Aquí puedes ver más sobre mis proyectos y conocimientos! ✨  
 📸 [**Instagram**](https://instagram.com/visho_xx_)  
+💼 [**LinkedIn**](https://www.linkedin.com/in/vicente-nathaniel/) – Aquí puedes conectar y conocer mi perfil profesional 🤝  
 💬 **¡Hablemos por Discord!** _(Usuario: n4than13l)_
