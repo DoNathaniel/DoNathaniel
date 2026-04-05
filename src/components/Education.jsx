@@ -1,27 +1,26 @@
 const data = [
     {
-        degree: "Ingenieria Civil en Informática",
+        degree: "Ingeniería Civil en Informática",
         institution: "Universidad de Valparaíso",
-        graduationDate: "Cursando",
+        graduationDate: "2025 - 2030",
     },
     {
-        degree: "Tecnico en Programación",
-        institution: "Instituto Comercial Bicentenario Viña del Mar",
-        graduationDate: "Septiembre 2025",
+        degree: "Técnico en Programación / Desarrollo Web",
+        institution: "Instituto Comercial Bicentenario de Viña del Mar",
+        graduationDate: "2023 - 2024",
     }
-]
+];
 
 export default function Education() {
     return (
-        <section className="w-4xl flex flex-col justify-center bg-[#0D1117] text-[#F1F1F1] py-10">
-            <h2 className="text-4xl font-bold mb-6">Educación</h2>
-            <div className="w-full max-w-4xl flex flex-col">    
+        <section id="education" className="w-full max-w-4xl flex flex-col bg-[#0D1117] text-[#F1F1F1] py-24 px-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-left">Educación</h2>
+            <div className="flex flex-col gap-6">
                 {data.map((edu, index) => (
-                    <div key={index} className={`py-5 px-5 flex items-center gap-6 border-l-4 border-white/50 hover:border-white transition duration-300`}>
-                        <div className="flex flex-col">
-                            <h3 className="text-2xl font-semibold">{edu.degree}</h3>
-                            <p className="text-lg text-gray-400">{edu.institution} | {edu.graduationDate}</p>
-                        </div>
+                    <div key={index} className="bg-white/5 border border-white/10 rounded-xl p-6 hover:border-blue-500/50 transition-colors">
+                        <h3 className="text-xl md:text-2xl font-semibold">{edu.degree}</h3>
+                        <p className="text-blue-400 mt-1">{edu.institution}</p>
+                        <p className="text-gray-500 text-sm mt-2">{edu.graduationDate}</p>
                     </div>
                 ))}
             </div>
