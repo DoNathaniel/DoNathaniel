@@ -2,6 +2,8 @@ import Education from "@/components/Education";
 import Experiencie from "@/components/Experience";
 import Certificates from "@/components/Certificates";
 import Skills from "@/components/Skills";
+import Services from "@/components/Services";
+import Contact from "@/components/Contact";
 
 export default function Home() {
     const socials = [
@@ -26,9 +28,17 @@ export default function Home() {
                     <span className="w-3 h-3 rounded-full bg-gray-600 group-hover:bg-blue-500 transition-colors"></span>
                     <span className="text-gray-500 text-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Habilidades</span>
                 </a>
+                <a href="#services" className="flex items-center gap-2 group">
+                    <span className="w-3 h-3 rounded-full bg-gray-600 group-hover:bg-blue-500 transition-colors"></span>
+                    <span className="text-gray-500 text-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Servicios</span>
+                </a>
                 <a href="#certifications" className="flex items-center gap-2 group">
                     <span className="w-3 h-3 rounded-full bg-gray-600 group-hover:bg-blue-500 transition-colors"></span>
                     <span className="text-gray-500 text-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Certificaciones</span>
+                </a>
+                <a href="#contact" className="flex items-center gap-2 group">
+                    <span className="w-3 h-3 rounded-full bg-gray-600 group-hover:bg-blue-500 transition-colors"></span>
+                    <span className="text-gray-500 text-sm opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Contacto</span>
                 </a>
             </nav>
             <section className="w-full max-w-4xl h-[60vh] flex px-4">
@@ -51,12 +61,17 @@ export default function Home() {
                             </a>
                         ))}
                     </div>
+                    <a href="#contact" className="inline-flex mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors w-fit">
+                        ¡Hagamos tu web realidad!
+                    </a>
                 </div>
             </section>
             <Education />
             <Experiencie />
             <Skills />
+            <Services />
             <Certificates />
+            <Contact />
         </main>
     );
 }
