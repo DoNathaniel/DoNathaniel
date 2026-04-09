@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const serviceTypes = [
     { value: "", label: "Selecciona un servicio" },
+    { value: "asesoria", label: "Necesito asesoría - No sé qué servicio necesito" },
     { value: "web-estatica", label: "Web Estática (Landing, Portfolio, Blog)" },
     { value: "app-web", label: "Aplicación Web (Dashboard, Sistema)" },
     { value: "mantenimiento", label: "Mantenimiento / Actualizaciones" },
@@ -140,6 +141,7 @@ export default function Contact() {
                             </option>
                         ))}
                     </select>
+                    <p className="text-gray-500 text-xs mt-2">Si no tienes muy claro qué servicio necesitas, selecciona "Necesito asesoría" y te ayudaré a orientarte.</p>
                 </div>
 
                 <div className="mb-4">

@@ -25,6 +25,8 @@ export default function Services() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-left">Servicios</h2>
             <p className="text-gray-400 text-sm md:text-base mb-10 max-w-xl">
                 Todos los servicios incluyen <span className="text-blue-400 font-semibold">asesoría gratuita inicial</span> vía email o videollamada Meet antes de comenzar.
+                <br /><br />
+                <span className="text-gray-500">Si no tienes muy claro qué servicio necesitas, puedes seleccionar la opción <span className="text-blue-400 font-semibold">"Necesito asesoría"</span> en el formulario. ¡Con gusto te ayudaré a resolver tus dudas y orientarte!</span>
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {services.map((service, index) => (
